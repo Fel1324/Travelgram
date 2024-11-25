@@ -7,7 +7,6 @@ nav{
   padding-block: 1.25rem;
 
   & ul{
-    list-style: none;
     display: flex;
     align-items: center;
     gap: 1.5rem;
