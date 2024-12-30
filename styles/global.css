@@ -49,3 +49,13 @@ ul{
 .bg-surface-color{
   background-color: var(--surface-color);
 }
+
+.desktop-only{
+  display: initial;
+}
+
+@media screen and (width <= 37.5em) {
+  .desktop-only{
+    display: none;
+  }
+}

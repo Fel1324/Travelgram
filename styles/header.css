@@ -46,7 +46,7 @@ header .container{
   }
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 59.375em){
   header .container{
     flex-direction: column;
     gap: 1.75rem;
@@ -57,7 +57,7 @@ header .container{
   }
 }
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 35em){
   #profile{
     flex-direction: column;
     text-align: center;

@@ -12,3 +12,9 @@ main{
     object-fit: cover;
   }
 }
+
+@media screen and (width <= 25em) {
+  main img{
+    width: 100%;
+  }
+}

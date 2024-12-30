@@ -32,22 +32,3 @@ nav{
     }
   }
 }
-
-@media screen and (max-width: 580px) {
-  nav{
-    flex-direction: column;
-    padding-block: 2rem 0;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  nav{
-    padding-bottom: 1.5rem;
-
-    & ul{
-      flex-direction: column;
-      gap: 2.25rem;
-      padding-top: 1.75rem;
-    }
-  }
-}
